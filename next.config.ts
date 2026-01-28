@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/sunlight-landscape-pompano",
+  assetPrefix: "/sunlight-landscape-pompano/",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
